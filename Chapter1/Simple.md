@@ -1,5 +1,4 @@
-Context: You are a React developer building an  Employee Management System full stack web application using:
-Backend APIs (FastAPI + MongoDB) that are already available:
+Context: You are a React developer building an  Employee Management System full stack web application with backend APIs (FastAPI + MongoDB) that are already available:
 
 AUTH:
 - POST /register → register (name, email, password)
@@ -28,11 +27,18 @@ Task: Build a complete beginner-friendly folder & file skeleton with boilerplate
 
 Features:
 1. Register/Login pages with validation and JWT handling  
+2. Home page (protected) showing employee table, search & filter  
+3. Employee Management page (admin only) with Add/Edit/Delete  
+4. Add/Edit employee form modal  
+5. Dashboard page with pie chart of employees by department  
+6. Route protection: redirect unauthenticated users, restrict admin routes  
+7. Axios instance with JWT interceptor  
+8. Show API errors on UI, handle invalid login, unauthorized access, network errors 
 
-Provide step to step instruction on set, configurations and commands to run the Login component. Explain each step. I want to iterate on the features if my Login feature is successfully implemented. 
+Provide step to step instruction on setup, configurations and commands to run the Login component. Explain each step.  
 
 
 UI: Clean Tailwind design, responsive, modals for forms, role-based buttons  
 Project structure: src/api/, src/components/, src/pages/, src/context/, App.jsx, main.jsx  
 
-Output: Login feature working in React frontend, routing configured, API calls functional, clean and modular code. No placeholders or pseudo code.
+Output: Complete working React frontend, routing configured, API calls functional, clean and modular code. No placeholders or pseudo code.
