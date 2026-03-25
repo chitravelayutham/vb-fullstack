@@ -1,6 +1,6 @@
 Prompt 1: 
 
-Context: You are a React developer building an Employee Management System frontend using React + Vite + Tailwind + Axios + JWT authentication. No frontend React components are built for the web application.
+Context: You are a React developer building an Employee Management System frontend using React + Vite + Tailwind + Axios + JWT authentication. No frontend React components are built for the web application. I have created the frontend scaffolding. Installed axios and react-router-dom.
 
 Task: Create **unit tests for the Login page** using **Vitest** and **React Testing Library**. The tests should cover:
 
