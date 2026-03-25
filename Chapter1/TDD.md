@@ -21,7 +21,7 @@ Requirements:
 Output: A beginner-friendly setup for unit testing the Login page that can be immediately added to the project and executed.
 
 
-Prompt 2: 
+Prompt 2 to design the tests: 
 Context: FastAPI backend, MongoDB Motor, pytest. 
 We are building authentication. User document: {username, email, hashed_password, 
 role} 
